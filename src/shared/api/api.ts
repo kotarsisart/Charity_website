@@ -10,7 +10,7 @@ import {
 
 // Створення базового запиту
 const baseQuery = fetchBaseQuery({
-  baseUrl: 'https://opportforeveryonerailwayenv-production.up.railway.app/api',
+  baseUrl: 'https://opportunities-for-everyone-backend.onrender.com',
   prepareHeaders: (headers, { getState, endpoint }) => {
     // Перелік endpoint, які не вимагають авторизації
     const skipAuthEndpoints = [
